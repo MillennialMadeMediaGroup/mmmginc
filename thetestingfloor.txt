@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+
+
+
+                                                       <!-------------------- WARNING --------------------->
+
+
+
+
+
+
+
+<!-- DO NOT COPY THE CSS FROM YOUR TESTING FLOOR! THE ADDITIONS YOU MAKE HERE ARE LIKELY TO BREAK THE EXISTING PAGE, SO REMOVE THE ELEMENTS  YOU NEED AS YOU
+
+NEED THEM, BUT REMEMBER NOT TO USE THIS VERSIOIN OF YOUR CSS. THERE SHOULD BE NO MORE NEED TO ALTER THE CSS PROPERTIES FOR MILLENNIAL MADE MEDIA GROUP'S WEB PAGE
+
+AND YOU DO SO AT YOUR OWN RISK. TAKE YOUR TIME WITH THIS HEADLEY. THIS IS A REMINDER NOT TO SCREW WITH WHAT YOU'VE ALREADY ACCOMPLISHED. YOU HAVE BACK-UPS SO USE
+
+THEM, BUT YOU NEED TO TAKE CARE TO QUANTIFY WHAT YOU HAVE ALREADY DONE AND ONLY USE THE PORTIONS OF CODE THAT YOU WORK ON! THIS IS SIMPLY A TESTING FLOOR AND THIS
+
+LONG AS MESSAGE IS MOSTLY JUST SO YOU'LL REMEMBER THIS MOVING FORWARD.
+
+
+
+THE ONLY TIME YOU NEED TO REMOVE SOMETHING FROM THE TESTING FLOOR IS ONCE YOU HAVE MADE IT WORK IN THE TESTING FLOOR. FROM NOW ON, DESTROY ALL OTHER ATTEMPTS TO CODE
+
+IN NEW FILES AND ONLY USE THIS PAGE FOR ANY ADDITION TESTING BE IT HTML, CSS, JAVASCRIPT, OR JQUERY. YOU HAVE COME TO FAR TO SCREW THIS UP NOW, SO TAKE YOUR TIME!
+
+
+YOU CAN DO THIS, SO MAKE SURE YOU DO IT RIGHT. ALL THINGS BEING CONSIDERED, IF YOU DO SO YOU CAN LAUNCH THIS SITE BY THE END OF THE YEAR OR SHORTLY AFTER AND MAKE
+
+ANY SMALL REVISIONS ONCE THE SITE IS LAUNCHED.
+
+
+DOUBLE CHECK ALL CODE AND ADDTIONS BEFORE YOU ADD ANYTHING TO YOUR ALREADY COMPLETED MMMG PAGE! YOU DO THIS FOR  YOUR OWN GOOD! -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----------------------------------------------------------- DO ALL YOUR CODING WORK ON THE TESTING FLOOR ------------------------------------------------- -->
+
+
+<html lang="en us">
+
+<head>
+
+<title>THE TESTING FLOOR</title>
+    <link rel="stylesheet" href="MMMG_HOME_CSS_Final.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+<p id="top"></p>
+
+<div id="hello">
+ <p id="timeofday" class="three">Time of Day</p>
+ <p id="salutation" class="three">Welcome to Millennial Made Media Group!</p>
+</div>
+
+<!-- SCRIPT SOURCE FOR DAILY GREETING -->
+<script src="Hello2020.js"></script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<ul id="navigation">
+   <li><a href="#wamp"><b>WAMP</b></a></li> 
+   <li><a href="#JSJQ"><b>javascript & jquery</b></a></li>
+</ul>
+
+<br>
+<br>
+<br>
+<br>
+
+<div id="page">
+
+<p class="six"><u><b>WARNING</b></u></p>
+
+<p class="four">
+
+<b> DO NOT COPY THE CSS FROM YOUR TESTING FLOOR UNTIL YOU ARE READY AND HAVE DETERMINED IT TO BE SAFE! THE ADDITIONS YOU MAKE HERE ARE LIKELY TO BREAK THE EXISTING 
+PAGE IF YOU DON'T REVIEW IT CAREFULLY, SO REMOVE THE ELEMENTS  YOU NEED AS YOU NEED THEM, BUT REMEMBER NOT TO USE THIS VERSION OF YOUR CSS. THERE SHOULD BE NO MORE 
+NEED TO ALTER THE CSS PROPERTIES FOR MILLENNIAL MADE MEDIA GROUP'S WEB PAGE AND YOU DO SO AT YOUR OWN RISK. TAKE YOUR TIME WITH THIS HEADLEY. THIS IS A REMINDER NOT 
+TO SCREW WITH WHAT YOU'VE ALREADY ACCOMPLISHED. 
+
+<br>
+<br>
+
+YOU HAVE BACK-UPS SO USE THEM, BUT YOU NEED TO TAKE CARE TO QUANTIFY WHAT YOU HAVE ALREADY DONE AND ONLY USE THE PORTIONS OF CODE THAT YOU WORK ON! THIS IS SIMPLY A 
+TESTING FLOOR AND THIS LONG ASS MESSAGE IS MOSTLY JUST SO YOU'LL REMEMBER THIS MOVING FORWARD.
+
+<br>
+<br>
+
+THE ONLY TIME YOU NEED TO REMOVE SOMETHING FROM THE TESTING FLOOR IS ONCE YOU HAVE MADE IT WORK IN THE TESTING FLOOR. FROM NOW ON, DESTROY ALL OTHER ATTEMPTS TO CODE
+IN NEW FILES AND ONLY USE THIS PAGE FOR ANY ADDITIONAL TESTING BE IT HTML, CSS, JAVASCRIPT, OR JQUERY. YOU HAVE COME TOO FAR TO SCREW THIS UP NOW, SO TAKE YOUR TIME!
+
+<br>
+<br>
+
+YOU CAN DO THIS, SO MAKE SURE YOU DO IT RIGHT. ALL THINGS BEING CONSIDERED, IF YOU DO SO YOU CAN LAUNCH THIS SITE BY THE END OF THE YEAR OR SHORTLY AFTER AND MAKE ANY
+ SMALL REVISIONS ONCE THE SITE IS LAUNCHED.
+
+<br>
+<br>
+
+<u>DOUBLE CHECK ALL CODE AND ADDITIONS BEFORE YOU PLACE ANYTHING TO YOUR ALREADY COMPLETED MMMG PAGE! YOU DO THIS FOR YOUR OWN GOOD!</u></b></p>
+
+<br>
+<br>
+
+</div>
+
+<br>
+<br>
+
+<div id="page">
+   <p class="two"><u><b>MMMG HTML, CSS, JAVASCRIPT & JQUERY STUDY</b></u></p>
+<br>
+<br>
+<hr>
+
+<p class="one"> 
+
+<h4>Friday - 12/13/2019</h4>
+
+
+<br>
+<br>
+
+1. Addition of unordered list, list items ("inline"), link(a), and (a:hover) properties (after "h2 {" .css code placement)
+
+<br>
+<br>
+
+
+2. Additions to "p.one" .css properties: max-width, min-width, margin, padding, and border, and new 
+   background color to define box within the "#page" box. (Optional as .css elements already sit 
+   within invisible, but defined boxes, and this is not an inclusion to be added to MMMG's developing 
+   page.)
+
+Note: There is no need to add max-width, and min-width to css. properties for p.one when inside of an element as they will take on the parameters of the #page
+      properties. 
+
+<br>
+<br>
+
+3. Remember, all css elements have boxes, but they need to be defined with the margin, 
+    padding, and border elements/properties.
+
+
+4. Additional code within body after defining un-ordered list, list items, links, and link hover .css additions to include
+   the navigation banner (See above). These link locations will remain within the contraints of the page to avoid the need 
+   for multiple pages within the home page, and the links within the home page link locations will necessarily link to separate URLs.
+   
+Note: "Division id=unordered list" defines elements within as links, requiring accompanying link html attachment to attach new pages
+       to links so each one of the #'s represents a URL. Example below.
+
+<br>
+<br>
+
+**You'll need to read the .txt file to see how this was accomplished.**
+
+5. Additional "p.three" .css for "back to top" link at the bottom of each page section. (After #page .css code placement.)
+
+<br>
+<br>
+
+6. Addition of "back to top" p.three to each page section underneath page links within
+
+<br>
+<br>
+
+7. Add html link annotation to headings in home page.
+
+<br>
+<br>
+
+
+8. Creation of new navigation for last page section to replace "Millennial Made Media Incorporated" heading links.
+
+<br>
+<br>
+
+**You'll need to read the .txt file to see how this was accomplished.**
+
+<br />
+<br />
+<br />
+
+
+<ul id="navigation">
+  <li><a href="#">about us</a></li>
+  <li><a href="#">our mission & vision</a></li>
+  <li><a href="#">contact us</a></li>
+</ul>
+
+<br>
+<br>
+
+9. Comments are added with <b> READ THE .TXT FILE TO SEE WHAT FOLLOWS... </b> <!-- THIS SHIT IS FUN --> 
+
+<br>
+<br>
+
+<p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4>Saturday - 12/14/2019</h4>
+
+<br>
+<br>
+
+1. Recoded background image position adding "background-position: center center;" to .css code and resizing MMMG Logo @ 659x361px
+
+<br>
+<br>
+
+2. All link scripts have been added to heading and list headings in home page. (Note: Review and add in additional links for overview
+   pages for each section, and link all "child headings" to "grandchild headings" from within overview pages.) 
+
+<br>
+<br>
+
+   2a. Double check all links to contact us pages and verify links.
+
+<br>
+<br>
+
+   2b. page heading links added to link to page headings within homepage. with accompanying page heading id's (See below)
+
+<br>
+<br>
+
+3. Review and place "alt" code for accessibility/screen reading/visually impaired assistance
+
+<br>
+<br>
+
+4. Addition of "p.four" .css script for justified beginning narrative text within "#page" elements. (See "Narrative Example I")
+
+<br>
+<br>
+
+5. Testing ammended .css script for "p.one" & "p.four" for site narratives (See "Narrative Examples I & II")
+
+<br>
+<br>
+
+<p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4>Monday - 12/16/2019</h4>
+
+<br>
+<br>
+
+1. Insterting new "division id=" functions, methods, using Javascript instructions saved in file "Hello.js" (See Javascript file for updates) meant to
+   greet users upon entering their profile/MMMG's subscription area. Consider preparing separate Javascript file for people who have yet to sign-up welcom-
+   ing them to the "Millennial Made Media Group, Inc. - Home Page"
+
+<br>
+<br>
+
+Ex. <u>Time of Day greeting</u><br />
+    Thank you for visiting Millennial Made Media  Group Online. Feel free to browse! We encourage newcomers to look around, enjoy the experience, 
+    and when you're ready, join the group! Once you've had some time to see what the group has to offer, click on the "|SIGN-IN|" button on the 
+   far right side of the banner, then on the "NOT A MEMBER? SIGN-UP" link, and get ready for the whole wide world, to get a whole lot smaller!"
+
+<br>
+<br>
+
+2. Rebuild for "login" and "signup" screens with new additions for <i>fieldset</i> boxes, new buttons and <i>legend</i> designations. Needed to
+   add an actual "login" button to the "sign-in_sign-up.html" file.
+
+<br>
+<br>
+
+3. Made some modifications to the a.hover (link hover) color from red to white (See "MMMG_HOME_CSS_Final.css" for changes made) and added a "p" designation
+   for addtional Javascript text.
+
+<br>
+<br>
+
+4. Immediate concern is with using the forms in the login and sign-up pages to create "new user profiles" to access the eventual content to be placed within
+   the appropriate pages upon site launch.
+
+<br>
+<br>
+
+5. **NOTE** Create 2 pages for new and returning users designated in java instructions by "Welcome to the group!" and "Welcome back to the group," respect-
+            ively. The first of these pages will be a "WELCOME" page that further elaborates on MMMG's purpose/mission & vision/contact us invite, with a new
+            message that reads "Click on the Millennial Made Media Group Incorporated link below to get started" invite (use the millennial made media group
+            incorporated text on the bottom of THIS PAGE ONLY to return them to the sign in page). The 2nd page should simply be the profile page they've 
+            created and and gained access to  after login which will justify the "Welcome back to the group," message which will fade after a time.
+
+<br>
+<br>
+
+
+6. **IMPORTANT** For now, any code giving user access should only be held under "p.five" in .css to avoid giving users access to any other content design-
+                 ations. p.227 in Javascript Jquery book discusses the dangers of allowing user access based on using "element.innerHTML" element assigning
+                 but this can be avoided by limiting user content additions to said class of p.five.
+
+<br>
+<br>
+
+7. **NOTE** Create registration screen links for newcomer sign up information. (See New Element #5). NOTE: THIS WAS ABANDONED UPON LEARNING OF JAVASCRIPT FUNCTIONS
+
+<br>
+<br>
+
+8. All corresponding pages in HTML, CSS, and Javascript (Jquery will have to wait until after site launch) books have been marked. Focus remains on nece-
+   ssary compontents to launch site with user access. Once accomplished offline, all corresponding files can be loaded onto secure server for public access.
+   After completion of test launch, verification, and consolidation of all coding, site launch will be ready and can commence.
+
+<br>
+<br>
+
+9. Notations will continue until successful online web launch. All Javascript updates and succesful implimenation will be noted upon successful testing and
+   usage.
+
+<br>
+<br>
+
+<p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4>Wednesday - 12/18/2019</h4>
+
+<br>
+<br>
+
+1. See "MMMG Narrative Example IV" for addition of column window not designated by traditional HTML rules. Also see proper HTML format for doing so and insert in
+new window for testing after Javascript book study.
+
+<br>
+<br>
+
+2. Made alterations to .css <i>body and #page</i> elements so that document can fit all known screen sizes from 27"imac to 3.5" iphone (2560px max width and 960px 
+   min, 1440px max height and 640px min)
+
+<br>
+<br>
+
+<h3>3. **IMPORTANT**</h3>
+
+Because the computer you're working on does not seem to want to load .css files from a separate file and folder (so presumably .js files either), 
+and will not load pages with .css elements located and sourced from a separate file, <i>remember to update the .html files that <u>WILL WORK</u> with css and js 
+when sourced outside of the html document.</i> This will probably be time consuming, as depending on the updated pages, you will need to locate them and add them 
+accordingly. <i>Recall here, that for now your SIGN-UP and SIGN-IN pages are using different .css files.</i>
+
+<br>
+<br>
+
+BEFORE SITE LAUNCH seek to ammend this, and relegate only certain elements that the users will use so not to be affected by XSS attacks as mentioned in the Javascript
+book on p.227! So far for user purposes only "p.six" has been added, but you will likely need more for comment areas and such.
+
+<br>
+<br>
+
+4. <b>NOTE: (JAVA.js)</b> In an <i>object, method, and properties</i> scenario (remember the document is also an object), each method and property is considered a 
+<i>member</i> of their respective object. You access the <i>members</i> using a <i>member operator</i> placed between the <u><b>object name and THE MEMBER</b></u> 
+you wish to access. In all cases so far know and used, the practice is to place a dot between the object and it's member.
+
+<br>
+<br>
+
+Ex. OBJECT.WRITE('KEEP GOING'); <i>The dot being a period and member operator,</i> All characters from 'WRITE' to the closing parentheses being the <b>method</b>. The
+method is designated by using the <b><i>Write()</i></b> method, which allows new content to be written into the page where the script element sits. Within the
+parentheses you place the information the method needs to execute, called the <i>paramters</i>. for the case of this example the "write()" method is used, however
+there are many more methods. This process is known as <i>calling a method of an object.</i> as is essentially what Javascript and JQuery are all about.
+
+<br>
+<br>
+
+<h4>NOTE: BROWSERS STOP <i><u>WHERE & WHEN</u></i> THEY CAME ACROSS A SCRIPT TO LOAD IT!</h4>
+
+<br>
+<br>
+
+5. <b>STATEMENTS:</b><i>A statement does not necessarily include and object and a method, however must at least have a EXPRESSION or response depending.</i>
+
+<br>
+<br>
+
+A statement dictates an instruction that the computer/browser will follow. Each statement ends with a <i>semicolon(;)</i> and for the purposes of being read easily,
+can begin on a new line (this is obviously ignored when compressing code). The semicolon tells the JS interpreter when a step is over and JS can move on to the next
+step.
+
+<br>
+<br>
+
+When surrounding a statement in curly braces, it is designated as a <b>code block</b> and <i>IS NOT</i> followed by a semicolon. Code blocks can group together more
+than one statement, which helps with code organization and makes code more readable, assuming you wish to do so.
+
+<br>
+<br>
+
+NOTE: When writing comments in JS in order to avoid having JS process them, /*place like comments like this if multi line*/ and use //this variation if not.
+Similar to writing hidden comments in HTML code, but obviously of a different nature. *Consider placing comments in codes for developers to enjoy, however do not do
+so at the risk of overloading your codes and scripts with too much content.
+
+<br>
+<br>
+
+CONSIDERATION: "Conditions if() {then;} else { instead;}" essentially state a <i>circumstance</i> which then incite an <i>action or response</i> as determined within
+a code block denoted by "{place action or response here;}". This relationship determines a condtion and <i>RESPOND</i> relationship. Other statements can determine 
+factors like variable statements but always end with a semicolon, and thus also statements. It is important to note however, that condtions and {statements;} 
+in a condition/respond scenario are only engaged once a set of <i>beginning actions/variables</i> has been established (i.e. variables must be determined prior 
+to allowing the circumstance of giving conditions and then appropriate responses).
+
+<br>
+<br>
+
+This means that statements are two-fold: both facts determining a scenario, and actions in response to a given condition. This is important because it dictates that
+no action is taken before giving the computer a circumstance and thus a decision to make. Simply, <i>no volition is intended or engaged in</i> prior to defining what
+('parameters') are to be met, and also that no {response;} is taken prior to defining a variable which is always an initial statement.
+
+<br>
+<br>
+
+<b>**IMPORTANT**</b> the last line of a JS or JQ coding sequence must always end with a <i><b>command statement!</b></i> So the whole relationship within a series of 
+beginning and ending statements with {code blocks;} therein can be summed up as a "FUNCTIONS/VARIABLE STATEMENTS/VARIABLES/CONDITIONS/CONDITIONAL STATEMENTS/COMMAND 
+STATEMENT", sequence.
+
+<br>
+<br>
+
+<h6>VARIABLES & FUNCTION EQUATIONS</h6>
+<div id="win">
+EXPRESSION (Defined variable) | x = value;<br>
+<br>
+VARIABLE (Undefined) | x; <br>
+<br>
+FUNCTION: <br>
+function nameFunction(){ <br>
+object.method('parameters'); <br>
+} <br>
+<br>
+FUNCTION W/ INFORMATION: <br>
+function nameOfFunction(p1, p2){ <br>
+return parameters; <br>
+} <br>
+<br>
+CALLING SINGLE VALUE FUNCTION: <br>
+function nameOfFunction(p1, p2){ <br>
+var x = p1 (operator) p2; <br>
+return x; <br>
+} <br>
+var one = nameOfFunction(p1value, p2value); <br>
+var two - nameOfFunction(p1value, p2value); <br>
+<br>
+CALLING MULTI VALUE FUNCTION: <br>
+function name(p1, p2, p3){ <br>
+var x = p1 (operator) p2; <br>
+var y = p1 (operator) p2 (operator) p3; <br>
+var z = [var x, var y]; <br>
+return z; <br>
+} <br>
+var xOne = nameOfFunction(p1value, p2value, p3value)[0]; <br>
+var yOne = nameOfFunction(p1value, p2value, p3value)[1]; <br>
+<br>
+FUNCTION EXPRESSIONS: <br>
+var x = function(p1, p2) { <br>
+return p1 (operator) p2; <br>
+}; <br>
+var y = x(p1value, p2value);
+<br>
+IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (IIFE):
+var x = (function() { <br>
+var y = value; <br>
+var z = value; <br>
+return y (operator) z; <br>
+}()); <br>
+<br>
+</div>
+
+<br>
+
+<b>NOTE:</b>
+The reason for this is that "conditions" result in "{conditional statements;}" but are not themselves followed by semicolons.<i>I have derived this from not being 
+able to justify the notion of a "conditional statement" being a "statement" that does not follow the rule of having a subsequent semicolon.</i> However I will use 
+this for my understanding only.
+
+<br>
+<br>
+
+6. Regarding <b>VARIABLES</b> it seems best to always use .textContent when giving a command in JS due to the fact that .innerHTML can apparently be used maliciously.
+Assuming there must be a specific reason for this, pay attention to see if using .innerHTML has any specific advantages other than assigning a blank string.
+Presumably there is a reason for wanting to do this?
+
+<br>
+<br>
+
+**FINAL NOTE: Remember to create an <i>Arts & Culture</i> page under the lifestyle page links. When you do so, remember obviously to create the page itself, and add
+the links into the lystyle page itself and connect the rest of the pages as well. Sports will need links to NFL, NBA, etc... and review all major page links to
+add into the existing pages. At this stage, you'll need to begin looking for content pages to add into each. Hopefully by now you'll have learned how to make a search
+engine and add it into your page so users can search for their own links. In the event you can give the users the ability to add links to their own pages, do so. The
+whole idea being that they can include the pages they want to into <i>their dashboard only</i> as you don't want to give them the ability to add to the existing
+page links stored on MMMG's content.**
+
+
+<br>
+<br>
+
+<p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4>Thursday - 12/19/2019</h4>
+
+<br>
+<br>
+
+
+1.<b>CONCATENATION:</b> Combining two or more strings (in programming lingo). The actual defenition is; <i>to link together in a series or chain.</i> This is
+important because when creating messages in JS the user is going to have to input values that then concatenate to create unique messages. The means by which to do
+this is my current goal because I want the page to greet users individually based on the information they input to make their pages unique. Still working on this...
+
+<br>
+<br>
+
+As I understand it, when the user inputs values for say <i>username and password</i> this information will have to store on a server and return to the user access
+based on a new url that holds their information. <b><u>this is my current goal</u></b> but I need to master forms and understand how that information gets stored
+in order to do so. Once this has been achieved I will proceed with site launch! <i>Creation, be with me.</i><br />
+<b>NOTE:</b> The method for adding spaces in a string is to either place a space after the word inside the quotes (Ex. 'Hello '; or by adding double single quotes
+within the string using the "=" operator (Ex. Hello + '' + whatever;). Also remember that whatever you use as final placement doesn't require quotes. See usage of
+textContent in the JS example used earlier to give message to yourself. Lastly, the only string operator you can use with words is the "+" symbol. All other operators
+are used in numerical values (arithmetic operators).
+
+<br>
+<br>
+
+3.<b><i>OBJECT/METHOD/PROPERTY RELATIONSHIP:</b> Within an object (denoted by 'object.' the period being the member operator of which methods and properties are
+the members) the method and properties are located, or in otherwords, "properties and methods are members of a given object". What this means is that, within a given
+<b>OBJECT</b>, an <b>EVENT</b> (i.e. click, tap, submit button, etc...) triggers a <b>METHOD</b>, which in turn alters the <b>PROPERTIES</b> of said object.</i>
+
+<br>
+<br>
+
+This would appear simple enough, however understanding this is clutch. The idea of what I am seeking to learn means that I want the 'document.' object to change its
+'properties' based on the event of say, clicking submit and joining the site, which triggers a method. The eventuality of this would be, logically, the document 
+changing its properties to reflect a personal user page with the HTML and CSS properties I designate... I think.
+
+<br>
+<br>
+
+4. Added css elements #win, and h5 (similar to h1 but without padding). h1 and h2 have been altered to reflect blue shadows, and all "p class 2" (used for headings
+now have black shadows. <i>These are all changes I highly considered before making, and will need to be updated in internal and final css pages for further testing.
+</i>
+
+<br>
+<br>
+
+<p class="six"><u>CRITICAL INFORMATION</u></p>
+
+<br>
+<br>
+
+<h5>FUNCTIONS, METHODS, AND OBJECTS </h5>
+
+<br>
+<br>
+
+<h6>VARIABLES & FUNCTION EQUATIONS</h6>
+<div id="win">
+EXPRESSION (Defined variable) | x = value; <br>
+<br>
+VARIABLE (Undefined) | x; <br>
+<br>
+FUNCTION: <br>
+function nameFunction(){ <br>
+object.method('parameters'); <br>
+} <br>
+<br>
+FUNCTION W/ INFORMATION: <br>
+function nameOfFunction(p1, p2){ <br>
+return parameters; <br>
+} <br>
+<br>
+CALLING SINGLE VALUE FUNCTION: <br>
+function nameOfFunction(p1, p2){ <br>
+var x = p1 (operator) p2; <br>
+return x; <br>
+} <br>
+var one = nameOfFunction(p1value, p2value); <br>
+var two - nameOfFunction(p1value, p2value); <br>
+<br>
+CALLING MULTI VALUE FUNCTION: <br>
+function name(p1, p2, p3){ <br>
+var x = p1 (operator) p2; <br>
+var y = p1 (operator) p2 (operator) p3; <br>
+var z = [var x, var y]; <br>
+return z; <br>
+} <br>
+var xOne = nameOfFunction(p1value, p2value, p3value)[0]; <br>
+var yOne = nameOfFunction(p1value, p2value, p3value)[1]; <br>
+<br>
+FUNCTION EXPRESSIONS: <br>
+var x = function(p1, p2) { <br>
+return p1 (operator) p2; <br>
+}; <br>
+var y = x(p1value, p2value);
+<br>
+IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (IIFE):
+var x = (function() { <br>
+var y = value; <br>
+var z = value; <br>
+return y (operator) z; <br>
+}()); <br>
+<br>
+</div>
+
+<br>
+<br>
+
+<div ="win">
+
+CONDITIONS | if(condtion) <br>
+<br>
+CONDITIONAL STATEMENTS: <br>
+if(condtion){ <br>
+then; <br>
+} else { <br>
+instead; <br>
+} <br>
+<br>
+
+</div> 
+
+<h4><u>FUNCTIONS</u></h4>
+
+<br>
+<br>
+
+<b>WITHIN FUNCTIONS OBJECTS ARE ALWAYS FOLLOWED BY A '.' WHETHER THE OBJECT IS THE DOCUMENT OR A VARIABLE AS OBJECT!</b><br>
+
+This is vitally important when it comes to understanding the placement of and verbage involved in preparing a JS or JQ script.
+
+<br>
+<br>
+
+5. A function will <i>always</i> be given a name  and is followed by an open and closing parenthes(), and the ensuing {code block} is considered it's 
+value which will enclose the statements and methods(variables) therein.
+
+<br>
+<br>
+
+<b>A function nameHere() {...Statements; (methods/variables); and ('properties/elements');...}</b> is always executed in this way, and will <i>always</i> have a
+corresponding name tied to its purpose. The process of doing so is called <i>"declaring a function" or a "function declaration",</i> and once you've done so you can
+then call the function again by name so, <i>function nameHere();</i> would be later called as just <i>nameHere();</i> aptly reffered to as <i>calling a function</i> 
+and can be done as many times as necessary within a script, however when you do this, the code will return and continue from where it was originally called. (It is 
+good to note that you can call a function prior to declaring it, because the interpreter will read the entire script before executing each statement, presumably due 
+to looping.)
+
+<br>
+<br>
+
+A function that requires specific information will make use of the parameters within the parentheses (i.e. function nameHere(x,y) {...;} and can be
+called <i>arguments</i> when specified. When the information inside the parentheses act as variables they are considered parameters, however unless this specific
+siuation exists, the difference can perhaps be overlooked. The main point is that information passed onto the function that does not change are arguments, however
+if the information requested can change within the {codeblock} then they are parameters.
+
+<br>
+<br>
+
+A function can <i><b>return</b></i> either single or multiple values (if using an array). The use of the keyword <i><b>return</b></i> results in the interpreter 
+leaving the function and <i><b>returning</b></i> to the statement that <i>called the function</i> and any subsequent statements will be ignored.
+
+<br>
+<br>
+
+<h6>SINGLE AND MULTIPLE VALUE FUNCTION EXAMPLE</h6>
+<div id="win">
+<h6>VARIABLES & FUNCTION EQUATIONS</h6>
+EXPRESSION (Defined variable) | x = value;<br>
+<br>
+VARIABLE (Undefined) | x; <br>
+<br>
+FUNCTION: <br>
+function nameFunction(){ <br>
+object.method('parameters'); <br>
+} <br>
+<br>
+FUNCTION W/ INFORMATION: <br>
+function nameOfFunction(p1, p2){ <br>
+return parameters; <br>
+} <br>
+<br>
+CALLING SINGLE VALUE FUNCTION: <br>
+function nameOfFunction(p1, p2){ <br>
+var x = p1 (operator) p2; <br>
+return x; <br>
+} <br>
+var one = nameOfFunction(p1value, p2value); <br>
+var two - nameOfFunction(p1value, p2value); <br>
+<br>
+CALLING MULTI VALUE FUNCTION: <br>
+function name(p1, p2, p3){ <br>
+var x = p1 (operator) p2; <br>
+var y = p1 (operator) p2 (operator) p3; <br>
+var z = [var x, var y]; <br>
+return z; <br>
+} <br>
+var xOne = nameOfFunction(p1value, p2value, p3value)[0]; <br>
+var yOne = nameOfFunction(p1value, p2value, p3value)[1]; <br>
+<br>
+FUNCTION EXPRESSIONS: <br>
+var x = function(p1, p2) { <br>
+return p1 (operator) p2; <br>
+}; <br>
+var y = x(p1value, p2value);
+<br>
+IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (IIFE):
+var x = (function() { <br>
+var y = value; <br>
+var z = value; <br>
+return y (operator) z; <br>
+}()); <br>
+<br>
+</div>
+
+<br>
+<br>
+
+<h3>ARRAYS</h3>
+
+<b>NOTE:</b> <i>I realize now the importance of arrays when it comes to using JS and JQ!</i> While writing functions is relatively simple, the greater necessity of
+writing out arrays is what leads to say, form submitting forms! There are going to be multiple elements within a given form, and the most efficient way to do this is
+to combine them all within an array.
+<br>
+I still need to better understand the looping method, but by placing all of the checks/verifications in an array or series of arrays within a function means that the
+whole form will be checked and approved within the script of the function.<br>
+<b>ONE STEP CLOSER</b>
+
+<br>
+<br>
+
+Arrays are aranged using an <i>index</i> which begins it's numbering sequence from '0' and items are retrieved (based on their corresponding variables) using square 
+brackets [].<br />
+
+Ex.<br />
+var arrayValue;<br />
+arrayValue;['valOne', 'valTwo', 'valThree', 'valFour'];
+
+<br>
+<br>
+
+var itemFour;<br />
+itemFour = arrayValue[3];
+
+<br>
+<br>
+
+Each array has a keyword <i>length</i> property which holds the number of items. An example of a variable set to be the number of values in an array would be:<br />
+var numArrayValue;<br />
+numArrayValue = arrayValue.length;
+
+<br>
+<br>
+
+<h4><u>FUNCTIONS Cont...</u></h4>
+
+<b>FUNCTION EXPRESSION:</b><br />
+While declaring a function means that the interpreter will allow you to call the function by its name anywhere in the script including before you've declared it,
+(See note #5), if used as an <i>expression or variable statement</i> <b>this is not the case!</b> If a function is declared where the interpreter expects to see an 
+expression or variable statement it is called a <i>function expression or function variable statement</i> and in this case, the name of the function is usually not 
+given, making it an <b>anonymous function</b> <i>(i.e. var Example = function (x, y) {...};)</i>. In the event this happens, the interpreter will not process the 
+function until it gets <i>to</i> the function, which means you cannot call it before it has been declared as in the case of a function declared devoid of an 
+expression or variable statement.
+
+<br>
+<br>
+
+<b>NOTE:</b>Clearly this is important because any code prior to that could affect the behavior of the function once the interpreter gets to this point! It is 
+probably important to remember at this point, that <i>the interpreter reads the script line by lines from top to bottom in order and follows the commands as such,
+which means that any code written intially will necessarily affect any code that comes after.</i> A function declared at the top of your script will have effects on
+functions declared later on in the script and you cannot use the same terminology for more than one function because the interpreter will think it is reusing the
+function you declared prior to the second usage. <i>Interestingly enough however, using small variations in declaring functions that might be similar can avoid this
+but I haven't quite found a purpose for that yet, so for now we'll stick to rigidly discerning one function from the next.</i>
+
+<br>
+<br>
+
+<h4>(IIFE) IMMEDIATELY INVOKED FUNCTION EXPRESSIONS</h4>
+
+<br>
+<br>
+
+In the case of an IIFE the interpreter executes them only as they come across them, and will hold and return the value from the function rather than storing
+the function so it can be recalled later. The interpreter determines this when it comes across a set of grouping operators which are parentheses that open and close 
+the entire function, in turn treating the whole function as an expression/variable statement and an open/close parentheses that shows up <i>after</i> the close code
+block brace, which dictates the immediate execution. Essentially an open parenthese before a function tells the interpreter it is about to come across and IIFE
+because presumably otherwise, it would just execute a normal function without them, and also why the interpreter reads the whole script before acting on it.
+
+<br>
+<br>
+
+Simply understood, going back to function expressions: In the event this circumstance appears, the interpreter will treat the function as an 
+expression. This being the case the extra set of parentheses contain the whole function which allows the interpreter to understand the function in 
+this case is not a function to be used as a script for the <b>WHOLE DOCUMENT</b>, rather just the portion of the document it has come across. This makes much more 
+sense now in the context of a form, or for my purposes, registering a new memeber to MMMG, as I would not want this particular script to affect the whole page, 
+rather just the portion of the page dictating the rules of registration.
+
+<br>
+<br>
+
+If say, I wanted the script to respond when the registration page loads, that would be one thing, but it is a bad idea to place the script that dictates signing in
+or registering along with the script determining the behavior of the page, for obvious safety reasons and because I can avoid multiple codes conflicting, thus the 
+need for an IIFE.
+
+<br>
+<br>
+
+Simply understood, placing this code within the script for the page allows me to do so without affecting the rest of the page's usability, and secures the rest of
+the script code from being affected by that portion alone. The added benefit of this is that I will not need separate scripts for the page to run properly. I will
+simply use this technique within the registration pages .js file which along with the .css file I intend to keep seperate and the interpreter will in turn only act 
+on it when a person elects to use the sign-in/registration portion of the page. Pretty elegant, and maddeningly simple. For study sake later on, here's an example.
+
+<br>
+<br>
+
+<h6>EXAMPLE IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (IIFE):</h6>
+
+<div id="win">
+
+var x = <b>(</b>function() { <br>
+var y = value; <br>
+var z = value; <br>
+return y (operator) z; <br>
+}<b>())</b>; <br>
+<br>
+
+</div>
+
+<br>
+<br>
+
+The book goes on to say that this is useful when you want to calculate a value for a particular function, to assign the value of a property to an object, in event
+handlers and listeners (which I'm pretty sure come up in forms), and to prevent conflicts between two scripts than might use the same variable names, which obviously
+should be avoided anyway.
+
+<br>
+<br>
+
+<p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4>Friday - 12/20/2019</h4>
+
+<br>
+<br>
+
+1. <i>Local variables</i> can be used inside of a function only, and not in the larger script in which case they are known as <i>global variables</i> the purpose now
+being to allow access througout the script. Global variables will work as long as the browser window is open and are used more for facets of the page that work
+within the browser window at all times. <b>Variables used outside of a function will be treated as global variables and are likely to cause conflicts within the 
+script! They also take up more memory so be judicious in their use if at all.</b> Best practice it would seem is to always make repeated variables local to avoid name 
+collisions.
+
+<br>
+<br>
+
+<h4>VARIABLES AS OBJECTS</h4>
+
+2. You will at some point be creating <i>variable-objects</i> within the larger object of the document itself. Objects you create will always have methods and 
+<b>Keys</b> and refer to a set of name/value pairs within an object. They are the same as any name or values within a function, and work
+as a set of instructions.
+
+<br>
+<br>
+
+<h4>CREATING AND ACCESSING VARIABLE AS OBJECTS</h4>
+
+Creating an object is basically creating a massive variable or a <i>variable as an object</i> also with properties (however in the case, the properties are not css 
+elements, so say, <i>keys</i>. Here you will be integrating the <i>this</i> keyword in the method which assigns the key to the
+variable-object specifically, and these act just as normal properties where 'strings', sit inside single quotations, numbers can be written alone, and ['arrays'] 
+reside in square brackets.
+
+<br>
+<br>
+
+<b>**LITERNAL NOTATION ONLY**</b> When assigning a key a <b>colon:</b> is used (not an = as in the case of an expression), and instead of a semicolon which ends a statement, 
+a <b>comma,</b> is used to end that key.
+
+<br>
+<br>
+
+<h6>VARIABLE AS AN OBJECT EXAMPLE - <i>LITERAL NOTATION</i></h6>
+
+<div id="win">
+
+<b>CREATING A VARIABLE AS AN OBJECT (LN)</b><br>
+
+var thing = { <br>
+name: 'insertName',<br>
+property1: numValue,<br>
+property2: 'string info',<br>
+property3: ['info', 'info', 'info'],<br>
+methodCalled: function() {<br>
+return this.property1 (operator) this.property2;<br>
+ } <br>
+}; <br>
+
+<br>
+<br>
+
+<b>NOTE:</b> Only string information was requested here, however if numerical data was being assigned, the single quotes '' wouldn't be required, and the third
+property in this instance in an array thus requiring both ['square', 'brackets', 'and', 'single', 'quotes'],
+
+<br>
+<br>
+
+Once a <i>variable as an object</i> (which is essentially an array) is created, when accessing the pseudo-properties or keys later, you will do so by using the dot 
+notation. You will recall this as a <i>member operator</i>. In order to do this, you will need to create a new variable using the or pseudo-property's (key's) name 
+when assigning a method to the variable-object. In accessing an variable-object, as in a statement both the = sign and a semicolon; are again used. The method can be 
+written one of two ways, either by just using the variable-object's designation as is, or by placing square brackets and single quotes around it.<br />
+Ex.['variable-object'];
+
+<br>
+<br>
+
+<b>ACCESSING A VARIABLE AS AN OBJECT</b><br>
+var thingName = thing.propertyName;<br>
+<i>or</i><br>
+var thingName = thing['propertyName'];<br>
+<i>and</i><br>
+var propertyStatus = thing.methodCalled();<br>
+<i>or</i><br>
+var propertyStatus = thing['methodCalled']();
+
+<br>
+<br>
+
+The ['square bracket'] notation is used when the name of the pseudo-property contains a special character, is a number, or a variable is being used in
+place of a property name and when doing this you can eliminate the dot member operator.
+
+<br>
+<br>
+
+<b>ACCESSING VARIABLE AS AN OBJECT IN JavaScript</b><br>
+var elThingName = document.getElementById('chosen_name');<br>
+elThingName.textContent = thing.propertyName;<br>
+<i>or</i><br />
+elThingName.textContent = thing['propertyName'];
+
+<br>
+<br>
+
+var elPropertyStatus = document.getElementById('chosen_name');<br>
+elPropertyStatus.textContent = thing.methodCalled();<br>
+<i>or</i><br>
+elPropertyStatus.textContent = thing['methodCalled']();
+
+<br>
+<br>
+
+As with any function called, if need be parameters can be given within the method | Ex. methodCalled: function(parameters){...}}; | Lastly, in the event you have more than one 
+variable-object on the same page, you need only change the names and use the same notation. You can also create an empty variable-object using literal notaion using 
+curly braces (Ex. var thing = {})
+
+</div>
+
+<br>
+<br>
+
+<p class="six"><u>STOP</u></p>
+
+<p class="seven"> It's important to stop and note here, that you've learned what variables are, which can exist outside of a function and be global, or be local 
+inside, meaning that they act on the document on their own or as commanded within a function as a result of an event. You aslo know what a function is, which is 
+essentially a command given to the document, followed by a series of variables and/or variable-objects that returns specifically asked for results. <br>
+Variables as objects are large variables that have multiple properties within that return certain values as well. All of this should take place when prompted, but can be 
+designed to simply act on their own when the document is loaded. Some functions should only respond <i>if dictated</i> when an <b>event</b> occurs, otherwise it will 
+run devoid of such action. Essentially the relationship is as follows.
+
+<br>
+<br>
+
+1. Cominbed expression & variables once commanded within a document will act on their own (globally), or within a function (locally).
+<br>
+2. Functions contain a single or multiple variables that react and return results only when a function is triggered or an <i>event</i> occurs. You will recall now 
+that certain functions are only to act when the interpreter comes across them in the script and not otherwise, and are known as <b> Immediately Invoked Function 
+Expressions or <i>variable statement</i></b>.
+<br>
+3. Variable as objects (Objects) are large variables or <i>functions written as variables within larger functions</i> with specific properties, that again return
+certain specific values when the function is triggered. Variable-object can be written in either literal or constructor notation, which we will discuss further 
+now.</p>
+
+<br>
+<br>
+
+<h4>VARIABLE AS OBJECTS Cont...</h4>
+
+There are varied ways to create variables as objects, respectively <i>literal notation</i> and <i>constructor notation</i> both of which can have multiple properties. 
+With constructor notation however, you can access <i><b>multiple variable-objects</b></i> as well, as an actual function will be used in this process, also similar 
+to an array, though expressed as a function template. It would seem obvious that the need for overlapping ways of creating these objects means you will have to use 
+similar means of creating smaller functions within larger ones. So, a function having been created, you can still place smaller variable-object functions within them. 
+Functions then are essentially objects of a sort, within the document object as well, however they return values once accessed either by simply opening the page and 
+allowing the script to run, or by means on an event which then triggers the function. It seems as such that only IIFE/IIFVS are triggered and normal functions run 
+devoid of the need to access them. <i><b>Local and global functions</b></i> like variables, that are contained within characters so not engage unless engaged.
+
+<br>
+<br>
+
+<div id="win"> 
+
+<b>CREATING A VARIABLE AS AN OBJECT CONSTRUCTOR SYNTAX</b><br>
+<b>Note the use of the keyword <i>new</i> and the <i>Object()</i> constructor.</b>
+
+<br>
+<br>
+
+var thing = <b>new</b> Object(); - <i>this creates a blank object</i><br>
+thing.name = 'nameHere';<br>
+<i>or</i><br>
+thing['name'] = 'name';<br>
+thing.property1 = 'string info';<br>
+thing.property2 = 'string info';<br>
+thing.methodCalled = function() {<br>
+return this.property1 - this.property2;<br>
+}; <i>close object</i>
+
+<br>
+<br>
+
+<b>ACCESSING A SINGLE VARIABLE AS AN OBJECT (CS) IN JavaScript</b><br>
+var elName = document.getElementById('thing name');<br>
+elName.textContent = thing.name;<br>
+<br>
+var elProperty1 = document.getElementById('property1');<br>
+elProperty1 = thing.methodCalled();<br>
+<br>
+
+<b>NOTE:</b> you can remove a property by using the <i>delete</i> keyword. (Ex. <i>delete</i> thing.name;) <b>or</b> you can <i>clear</i> the value by using single 
+quotes. (Ex. thing.name = '';). Also, in this format, having made use of the Object(); constructor function, this usage acts as a stand alone function and does not
+need the extra set of curly braces need to close the whole function code block. It is essentially a function in an of itself, and does not reside within a larger
+function (See paragraph above example). I.e., a smaller function within the document object that acts as any other function but without variables, and variable-objects
+therein, rather just properties. Next it will show that object constructors can use functions as a template for creating objects and as any variable-object, 
+it resides within a larger function.
+
+<br>
+<br>
+
+<b>CREATING MULTIPLE VARIABLES AS OBJECTS CONSTRUCTOR NOTATION</b><br>
+PG.111 (JS &JQ) Duckett
+
+function Thing(name, prop1, prop2) {<br>
+this.thingName = name;<br>
+this.thingProp1 = info1;<br>
+this.thingProp2 = info2;<br>
+this.methodCalled = function() {<br>
+return this.info1 (operator) this.info2;<br>
+ }; <br>
+}
+
+<br>
+<br>
+
+<b>ACCESSING A MULTIPLE VARIABLE-OBJECT (CN) IN JAVASCRIPT</b><br>
+
+var thingOne = new Thing('One', 'info1', 'info2');<br>
+var thingTwo = new Thing('Two', 'info1', 'info2');
+
+<br>
+<br>
+
+var details1 = thingOne.name + 'prop1:';<br>
+    details1 += thingOne.methodCalled();<br>
+var elThing1 = document.getElemenetById('thing1');<br>
+elThing1.textContent = details1;
+
+<br>
+<br>
+
+var details2 = thingTwo.name + 'prop1:';<br>
+    details2 += thingTwo.methodCalled():<br>
+var elThing2 = document.getElementById('thing2');<br>
+elThing2.textContent = details2;
+
+<br>
+<br>
+
+Note: This would result in the methodCalled for both objects being displayed in the same element, and the '+' is used to add content to an existing variable as in both
+the 'prop1' information and the method called. The idea here is that if you have more than one instance of a similar variable-object, you can display them both
+in the same context as a means of comparison but you must create two instances of them so the interpreter knows to access them separately but you're accessing them
+using the same properties and methods.
+
+</div>
+
+<br>
+<br>
+
+<h6>IMPORTANT</h6>
+
+<div id="win">
+Creating a variable as an object: Literal Notation <br>
+function (){ var thing ={...function() {}};
+
+<br>
+<br>
+
+Creating a variable as an object: Constructor Notation <br>
+var thing = new Object(); function(){};
+
+<br>
+<br>
+
+Creating Multiple avriables as objects: Constructor Notation<br>
+function Thing(p1, p2, p3){...function(){};}
+
+
+</div>
+
+<br>
+<br>
+
+<p class="seven">What the previous simplified version of creating objects seems to dictate is as follows: When creating variable-object (objects within a function),
+be they literal notations or single constructor notations the examples given are meant to act as though residing within a function so the end result makes them 
+appear as though they are statements that end somewhere within a given function, resulting in the }; <b>but</b> when creating multiple variable-objects by use of 
+constructor notation, you are actually creating a function in and of itself which means you end with the } which ends the function. Logically, it would seems that as
+the process breaks down functions of any sort contain multiple variables and "variable-objects" which I've only deemed variable-object because they start with the 
+"var" term and reside themselves within functions as any other variable might (not necessarily), which then dictates that in the case of what is termed as creating 
+many objects or what I am calling "multiple variable-objects: constructor notation" a new function is being created which then allows the whole portion of the script 
+to act as a new function thereby ending with the } designation.
+
+<br>
+<br>
+
+Note: for your own purposes this might be useful in letting your MMMG subscribers/users know which areas of the site are being visited more often than others. The idea
+being that maybe going somewhere else on the site might me just as if not more interesting allowing them perspective without them having to go their on their own. Of
+course them visiting this portion of the site or that is up to them, however varied insights might be available else where. So say Thing1 and Thing2 in the example
+above could be one website vs. another that provide the same kinds of information that more users find more useful than another. </p>
+
+<br>
+<br>
+
+<h6>VARIABLE AS AN OBJECT EXAMPLE ADDING AND REMOVING PROPERTIES</h6>
+<div id="win">
+
+var Thing = {<br>
+propname = 'insertName',<br>
+property1 = 'info',<br>
+property2 = 'info',<br>
+ };
+
+<br>
+<br>
+
+thing.property3 = true;<br>
+thing.property4 = false;<br>
+thing.property5 = 'info';<br>
+
+<br>
+<br>
+
+var elPropName = document.getElementById('insertName');<br>
+elPropName.textContent = thing.name;<br>
+
+<br>
+<br>
+
+var elProperty4 = document.getElementById('property4');<br 
+elProperty4.textContent = thing.property4;<br>
+
+<br>
+<br>
+
+var elProperty5 = document.getElementById('property5'):<br>
+elProperty5.textContent = thing.property5;
+
+<br>
+<br>
+
+Note: In this example a <i>boolean</i> value is used in 'thing.property' 3 & 4 which the interpreter would note as a check or an X value for true or false. Obviously
+in whatever case this is required the interpreter already knows to indicate one or the other. Perhaps where MMMG is concerned one reference site offers some type of
+information over another.
+
+</div>
+
+<br>
+<br>
+
+When a function is defined <i>inside</i> of an object it becomes a method and refers to the containing object (document --> function --> variable-object, or a
+function inside a variable object or now a method).<br>
+Ex.<br>
+var shape ={<br>
+width = 600,<br>
+height = 400,<br>
+getrArea: function() {<br>
+ return this.width * this.height;<br>
+ }<br>
+};<br>
+<i>is the same as</i><br>
+return shape.width*shape.height;
+
+<br>
+<br>
+
+So if creating several objects, using different constructoes, each would refer the new instance of that particular object and would return them with getArea()
+
+<br>
+<br>
+
+If a function is used as a global function, then it will use the variable that defines width if not refered to another variable.<br>
+Ex.<br>
+var width = 600;<br>
+var shape = {width: 300};
+
+<br>
+<br>
+
+var showWidth = function() {<br>
+document.write (this.width);<br>
+};
+
+<br>
+<br>
+
+showWidth();<br>
+would result in the function returning the var width of 600.
+
+<br>
+<br>
+
+If defined in a global scope a function is used as a method of an object <i>this</i> refers to the object it is contained within, thus<br>
+Ex.<br>
+var width = 600;<br>
+var shape = {width: 300};
+
+<br>
+<br>
+
+var showWidth = function (){<br>
+document.write(this.width) ;<br>
+};
+
+<br>
+<br>
+
+shape.getWidth = showWidth;<br>
+shape.getWidth();
+
+<br>
+<br>
+
+This would then retrieve the width definied in the "var shape" field of 300, as you are using the dot notation to determine the value of that designation and not 
+just using the "showWidth" designation instead. In this case you've changed the designation to "getWidth()" and not "showWidth()" as in the first example.
+
+<br>
+<br>
+
+Note: Rules for storing data can only be stored in a function or a method. As such, arrays can only hold information about which a function or a method dictate.
+Individual objects are best stored in literal notations and multiple in a constructor as they provide a template for multiple objects. This would
+say be useful if you needed to store and display data in regards to muliple sites accessed through any one of MMMG's displayed pages. Note here that objects hold
+information for later use, and arrays specifically hold related information as pertains to their variable-object/keys and value pairs. Also, recall that the 
+relationship of a value to a variable-object/key is retrieved by using a dot notation. So a variable-object/key with a designation of website, with one or more
+properties is retrieved using "website.property", the dot being the member operator. This is universal when retrieving a property on an object. Values within an 
+object are designated using the = member operator as a name or property you designate should have a value.
+
+<br>
+<br>
+
+<h6>WHERE ARE YOU, AND HOW MANY ELECTRONICS ARE IN THE ROOM?</h6>
+<h6>WHAT DO YOU NEED TO REMIND YOURSELF?</h6>
+<div id="win">
+
+<h4>JAVASCRIPT PRACTICE</h4><br>
+<b>Where are you?</b>
+
+<div id="upstairs">Where are you</div>
+<br>
+<b>How many electronic devices are in the room?</b>
+<div id="electric">What is in here</div>
+  <script src="office.js"></script>
+<br>
+
+<b>Who are you, and what do you need to remember?</b>
+<br>
+<div id="name">Hello and a message to myself</div>
+  <script src="TSTNM.js"></script>
+
+<br>
+<br>
+
+NOTE: As far as I've accomplished, I can only call on a script once. Which is likely why they need to be put into functions so they can be called when and if you 
+choose to. These two scripts are in separate files. I will attempt soon after to combine them into one and have them react the same way, but for now what I've 
+learned is that while you place more than one script in an area, if you attempt to place the <i>div id</i> in more than one place the script will only respond to 
+one, namely the closest one from the bottom.
+
+<br>
+<br>
+
+Combining scripts into a function now seems the best way to do this as per my study it allows you to call on it more than once, definitely within a function as I am
+learning, but I want to know how to use scripts multiple times in a document if need be. With practice I should also be able to have the page respond to the user
+as they scroll or click, leaving small messages throughout the page. I should beware not to overload the scripts however because apparently this slows down the loading
+process. For now this is cool AF.
+
+<br>
+<br>
+
+<i>See html comments below for the JS code that accomplished this.</i> 
+
+</div>
+
+<!-- Javascript codes are as follows:
+
+File name: "office.js"
+
+var room = {
+
+name: 'Office',
+books: 50,
+monitors: 3,
+outlets: 3,
+electronics: 4,
+
+checkElectricalThings: function() { return this.electronics + this.outlets;
+
+ }
+};
+
+var roomName = room.name;
+var outletsAvailable = room.checkElectricalThings();
+
+var elRoomName = document.getElementById('upstairs');
+elRoomName.textContent = room.name;
+
+var elElectronics = document.getElementById('electric');
+elElectronics.textContent = room.checkElectricalThings();
+
+----------------------------------------------------------------------------------
+
+File name: "TSTNM.js"
+
+var fullName = 'Headley Wilford Darlington III, ';
+
+var slowDown = 'Take your time.';
+
+var fillIn = fullName + slowDown;
+
+var elHead = document.getElementById('name');
+elHead.textContent = 'Hello, ' + fillIn; 
+
+----------------------------------------------------------------------------------- -->
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4>Friday 12/27/2019 - DO WORK SON! The best revenge is success. (Javascript Practice)</h4>
+
+
+<!-- STRING EXAMPLE FOR JS -->
+
+<p id="begin"> Here we go </p>
+
+
+<br>
+<br>
+
+<!-- BOOLEAN EXAMPLE FOR JS -->
+
+<h4>I am working</h4>
+
+<span id="working"></span>
+
+<h4>I am not working</h4>
+
+<span id="notworking"></span>
+
+
+<br>
+<br>
+
+<!-- NUMERICAL EXAMPLE FOR JS -->
+
+<h4> How much will I pay in House arrest for the next 50 weeks? </h4>
+
+<p id="fuckthem"> amount paid for freedom </p>
+
+
+<br>
+<br>
+
+<!-- ALL TOGETHER NOW -->
+
+
+<h1> What is your destiny? </h1>
+
+<p id="truth" class="eight"> facts </p>
+
+
+<h1> God is good, and the devil is a liar </h1>
+
+<p id="creation" class="eight"></p> 
+
+<p id="liar" class="eight"></p>
+
+
+<h1> How much are you worth in short order, Headley? </h1>
+
+<h2 id="wealth"> get this money </h2>
+
+<h1> Movies I am currently watching: </h1>
+
+<p id="cinema" class="eight"> Mr. Lecter </p>
+
+<h2> Which movie is on next?</h2>
+
+<p id="movies" class="eight"></p>
+
+
+<br>
+<br>
+
+REMEMBER: No commas in your number variable values!! also, you can combine as many variables and returns as you want in one .js file 
+
+<br>
+<br>
+
+NOTES:<br>
+When placing scripts you must place the return code IMMEDITELY after you have declared the variable(s) so the order would be:
+
+<br>
+<br>
+
+var varIsThis = valueHere;<br>
+var valueHere = oldValueHere;<br>
+
+<br>
+<br>
+
+var elBlank = document.getElementById('idhere');<br>
+elBlank.textContent = valuehere;<br>
+
+<br>
+<br>
+
+If at some point you change the script/variable to reflect a different return result, you must then change the following code to reflet what it is you want the 
+script to return, so:
+
+<br>
+<br>
+
+var varIsThis = valueHere;<br>
+var valueHere = newValueHere;<br>
+
+<br>
+<br>
+
+var elBlank = document.getElementById('idhere');<br>
+elBlank.textContent = valueHere;<br>
+
+<br>
+<br>
+
+Otherwise the script will run the old code, and furthermore if you have declared various values in the code between these two the script will not run the code as it 
+should because it will not execute the code in the order you wish to. **I discovered this after placing variables and not placing the code immediately after, and not 
+getting the return results I expected.**
+
+<br>
+<br>
+
+1. varStatement = 'statement';<br>
+   varStatementTwo = 'statementTwo';<br>
+2. returnVariableStatement = varStatement + varStatementTwo;
+
+<br>
+<br>
+
+3. Place elVarCode = document.getElementById('idhere');<br>
+4. elVarCode.textContent = returnVariableStatement;
+
+<br>
+<br>
+<br>
+
+EVERYTIME! PLACE VARIABLES & STATEMENTS PRIOR TO CODE! DO NOT PLACE SEVERAL VARIABLES AND THEN CODES!
+
+<br>
+<br>
+
+Method: Essentially a command that resides within the javascript code. In the object/method model is means that it tells the object what it needs to do, so:
+
+<br>
+<br>
+
+object.method() = object.command()
+
+<br>
+<br>
+
+and parameters are the execution portion of the method, so:
+
+<br>
+<br>
+
+object.method('parameters') = object.command('execution')
+
+<br>
+<br>
+
+in this regard, methods are 'functions' that are created inside of and are part of an object.
+
+<br>
+<br>
+
+<div id="fltrt">
+<h3 id="hi"> Good Morning </h3>
+<p class="four"> this was achieved using Javascript with a function code. However the point is to learn to have say the H.W. portion input into a form and have the 
+code respond accordingly. Incidentally you can place the use any element to call an 'Id' from your script. </p>
+</div>
+
+<h5> Tuesday December 31, 2019 - JavaScript Study</h5>
+
+<b>REVIEW FUNCTIONS, METHODS, AND OBJECTS:</b>
+
+1. Pgs 122 - 137 (JavaScript & JQuery) have detailed lists of JavaScript keywords and functions for DOMs, BOMs, and GJO (Global JavaScript Objects). Due to their
+being extensive I will not list them all here, but going over them repeatedly will be a point of study to familiarize myself with as many as possible. Some of the
+more important ones however are, from the DOM:
+
+document.write() - which writes to the document but isn't for common use and envokes immediately everytime.
+
+<br>
+<br>
+
+document.getElementById() - allocates the element desired to be attended to by the code
+
+<br>
+<br>
+
+document.querySelector() - much like .getElementById but is a css selector (See pgs 193-197 for list of Javascript element selectors)
+
+<br>
+<br>
+
+document.querySelectorAll() - retrivews all elements of a type from the DOM tree within a parent  node
+
+<br>
+<br>
+
+document.createElement() - covered on pg. 222 
+
+<br>
+<br>
+
+document.createTextNode() - covered on pg. 222 (these last two use JavaScript to create new elements from within code scripts as opposed to using HTML to do so)
+
+<br> 
+<br>
+<br>
+
+NOTE: Using the "+=" operator after declaring an expression allows you to add to the existing varialbe.<br>
+Ex.<br>
+var newVariable = 'stringHere';<br>
+nameHere += 'secondStringHere';<br>
+nameHere += 'addsToSecondStringHere';
+
+<br>
+<br>
+
+var el = document.getElementById('retrieve');<br>
+el.textContent = newVariable;<br>
+<i>...will result in strings being added to original newVariable string/number value/boolean in block level format (unless otherwise specified I imagine).</i>
+
+<br>
+<br>
+
+2. Remember that using arrays is optimal when you have multiple property/value pairs that you want to use within a certain code, rather than using a new
+variable for each, you can create and array and use the index numbers therein. [0]=1, [1]=2, [2]=3, etc...
+
+<br>
+<br>
+
+3. Pg 137 has a list of Global Object: Date and Time objects you can use to tell specific times for whatever reason, calculated in millisecond from Jan.1 1970
+<br>
+and must be used with constructor method (i.e. <i>new</i> Date()
+
+<br>
+<br>
+
+<h6>FUNCTION EQUATIONS</h6>
+<h6> REVIEW! REVIEW! REVIEW!</h6>
+<div id="win">
+<h6>VARIABLES & FUNCTION EQUATIONS</h6>
+EXPRESSION (Defined variable) | x = value;<br>
+<br>
+VARIABLE (Undefined) | x; <br>
+<br>
+FUNCTION: <br>
+function nameFunction(){ <br>
+object.method('parameters'); <br>
+} <br>
+<br>
+FUNCTION W/ INFORMATION: <br>
+function nameOfFunction(p1, p2){ <br>
+return parameters; <br>
+} <br>
+<br>
+CALLING SINGLE VALUE FUNCTION: <br>
+function nameOfFunction(p1, p2){ <br>
+var x = p1 (operator) p2; <br>
+return x; <br>
+} <br>
+var one = nameOfFunction(p1value, p2value); <br>
+var two - nameOfFunction(p1value, p2value); <br>
+<br>
+CALLING MULTI VALUE FUNCTION: <br>
+function name(p1, p2, p3){ <br>
+var x = p1 (operator) p2; <br>
+var y = p1 (operator) p2 (operator) p3; <br>
+var z = [var x, var y]; <br>
+return z; <br>
+} <br>
+var xOne = nameOfFunction(p1value, p2value, p3value)[0]; <br>
+var yOne = nameOfFunction(p1value, p2value, p3value)[1]; <br>
+<br>
+FUNCTION EXPRESSIONS: <br>
+var x = function(p1, p2) { <br>
+return p1 (operator) p2; <br>
+}; <br>
+var y = x(p1value, p2value);
+<br>
+IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (IIFE):
+var x = (function() { <br>
+var y = value; <br>
+var z = value; <br>
+return y (operator) z; <br>
+}()); <br>
+<br>
+</div>
+
+<br>
+<br>
+
+<div id="win">
+Creating a variable as an object: Literal Notation <br>
+function (){ var thing ={...function() {}};
+
+<br>
+<br>
+
+Creating a variable as an object: Constructor Notation <br>
+var thing = new Object(); function(){};
+
+<br>
+<br>
+
+Creating Multiple avriables as objects: Constructor Notation<br>
+function Thing(p1, p2, p3){...function(){};}
+
+
+</div>
+
+<br>
+<br>
+
+<b><i>IT IS IMPORTANT TO UNDERSTAND NOT JUST THE WAY FUNCTIONS WORK AND ARE WRITTEN BUT THE WAY THAT VARIABLES RESPOND IN KIND AND SEPARATELY. THE POINT ISN'T TO WRITE
+THEM INDIVIDUALLY BUT TO COMBINE THEM TO WRITE LARGER SCRIPTS. REVIEW VARIABLE, FUNCTIONS, METHODS, AND OBJECT REPEATEDLY UNTIL THEY MAKE SENSE AT A GLANCE!</b></i>
+
+<br>
+<br>
+
+<div id="win">
+
+CALLING SINGLE VALUE FUNCTION: <br>
+function nameOfFunction(p1, p2){ <br>
+var x = p1 (operator) p2; <br>
+return x; <br>
+} <br>
+var one = nameOfFunction(p1value, p2value); <br>
+var two - nameOfFunction(p1value, p2value);
+
+<br>
+<br>
+
+CALLING MULTI VALUE FUNCTION: <br>
+function name(p1, p2, p3){ <br>
+var x = p1 (operator) p2; <br>
+var y = p1 (operator) p2 (operator) p3; <br>
+var z = [var x, var y]; <br>
+return z; <br>
+} <br>
+var xOne = nameOfFunction(p1value, p2value, p3value)[0]; <br>
+var yOne = nameOfFunction(p1value, p2value, p3value)[1]; 
+</div>
+
+<br>
+<br>
+
+<div id="win"> 
+
+<b>CREATING A VARIABLE AS AN OBJECT CONSTRUCTOR SYNTAX</b><br>
+<b>Note the use of the keyword <i>new</i> and the <i>Object()</i> constructor.</b>
+
+<br>
+<br>
+
+var thing = <b>new</b> Object(); - <i>this creates a blank object</i><br>
+thing.name = 'nameHere';<br>
+<i>or</i><br>
+thing['name'] = 'name';<br>
+thing.property1 = 'string info';<br>
+thing.property2 = 'string info';<br>
+thing.methodCalled = function() {<br>
+return this.property1 - this.property2;<br>
+}; <i>close object</i>
+
+<br>
+<br>
+
+<b>ACCESSING A SINGLE VARIABLE AS AN OBJECT (CS) IN JavaScript</b><br>
+var elName = document.getElementById('thing name');<br>
+elName.textContent = thing.name;<br>
+<br>
+var elProperty1 = document.getElementById('property1');<br>
+elProperty1 = thing.methodCalled();
+
+<br>
+<br>
+
+<b>CREATING MULTIPLE VARIABLES AS OBJECTS CONSTRUCTOR NOTATION</b><br>
+PG.111 (JS &JQ) Duckett
+
+function Thing(name, prop1, prop2) {<br>
+this.thingName = name;<br>
+this.thingProp1 = info1;<br>
+this.thingProp2 = info2;<br>
+this.methodCalled = function() {<br>
+return this.info1 (operator) this.info2;<br>
+ }; <br>
+}
+
+<br>
+<br>
+
+<b>ACCESSING A MULTIPLE VARIABLE-OBJECT (CN) IN JAVASCRIPT</b><br>
+
+var thingOne = new Thing('One', 'info1', 'info2');<br>
+var thingTwo = new Thing('Two', 'info1', 'info2');
+
+<br>
+<br>
+
+var details1 = thingOne.name + 'prop1:';<br>
+    details1 += thingOne.methodCalled();<br>
+var elThing1 = document.getElemenetById('thing1');<br>
+elThing1.textContent = details1;
+
+<br>
+<br>
+
+var details2 = thingTwo.name + 'prop1:';<br>
+    details2 += thingTwo.methodCalled():<br>
+var elThing2 = document.getElementById('thing2');<br>
+elThing2.textContent = details2;
+
+<br>
+<br>
+
+</div>
+
+<br />
+<br />
+
+<h5>CHAPTER 4 - DECISIONS AND LOOPS</h5>
+
+<div id="window">
+
+<h4>EXAMPLE CONDTION & CONDITIONAL STATEMENT</h4>
+
+<b>if</b> (condition) {<br>
+codeToExecuteIfTrue();<br>
+} <i>else</i> {<br>
+codeToExecuteIfFalse();<br>
+}<br>
+<br>
+<b>So "<i>if(condtion)</i> {" document checks condition<br>
+"codeToExecuteIfTrue();" executes code if true<br>
+"} <i>else</i> {" the first condition not being met, the document moves on to<br>
+"codeToExecuteIfFalse();" and instead execute this statement<br>
+}</b><br>
+<b>NOTE:</b>You can have multiple conditions by combining more comparison operators to check if more than one condition is met (pg.150 has list of comparison operators)
+
+<br>
+<br>
+
+</div>
+
+<br>
+<br>
+
+<div id="window">
+<h4>COMPARISON OPERATORS</h4>
+== is equal to compares two values to see if they are the same<br>
+!= is not equal to<br>
+=== strict equal to means both values are equal data type and value<br>
+!== strict not equal to makes sure value and data type are NOT the same<br>
+> greater than<br>
+< less than<br>
+>= greater than or equal to<br>
+<= less than or equal to<br>
+<br>
+When using comparison operators every value can be treated as a boolean (true or false) even if not specified as one. In a short circuit evaluation, and condition may not need
+to run.
+</div>
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4> Wednesday January 1, 2020 </h4>
+
+<h6>HAPPY NEW YEAR!... NOW DO WORK, SON!!!</h6>
+
+<h4><b>JAVASCRIPT CONTINUED...</b></h4>
+
+<b>STRUCTURING COMPARISON OPERATORS</b><br>
+
+1. In any form there is usually one operator (>,<, >=, !=, etc...) and two operands (value/variable (operator) value/variable), being either values or variables-- variables of course would have to be defined, however if 
+defined before hand they do not require parentheses. 
+
+<br>
+<br>
+
+<b>
+Ex. <br>
+var pass = value; <br>
+var score = value; <br>
+<br>
+var hasPassed = score >= pass;<br>
+<br>
+var el = document.getElementById('congrats'); <br>
+el.textContent = 'message' + hasPassed; <br>
+You can continue this for as many times as you run the comparison
+</b>
+
+<br>
+<br>
+
+<b>
+var score1 = value; <br> (reflecting new score)
+var score2 = value; <br> (reflecting new score)
+var highScore1 = value; <br> (having been previously established)
+var highScore2 = value; <br> (having been previously established)
+<br>
+var comparison = ((score1 + score2) (operator) (highScore1 + highScore2)); <br>
+<br>
+var el = document.getElementById('message'); <br>
+el.textContent = 'Congratulations) + comparison; <br>
+</b>
+
+<br>
+<br>
+
+<div id="win">
+
+<h3> REVIEW </h3>
+<p class="four"> You will do well to recall how to finish calling variables after you have defined them, and functions after you have declared them. Return and review those forumulas as often as possible. <br>
+It can only do you well. Also, recall that any variable and function not contained within a function itself and Immediately Invoked Function Expression run as soon as the interpreter comes across them and are <br>
+considered <i>global</i> and not <i>local</i> meaning they will conflict with any other portions of the script already written that have the same variable names, which you should avoid. Putting a list together <br>
+would seem helpful.
+
+<br>
+<br>
+Lastly, it would seem prudent to recall that IIFE cannot be called before their being declared, and other functions can be because the interpreter will read the entire script before executing any single function therein.
+</p>
+
+</div>
+
+<br>
+<br>
+
+<div id="win">
+<h6> LOGICAL OPERATORS </h6>
+
+<h4>&&</h4>
+The <b>LOGICAL AND</b> operator tests more than one condition to confirm they are both true, otherwise the result is false. <br>
+Ex. <br>
+true && true is <i>true</i> <br>
+true && false is <i>false</i> <br>
+false && true is (short-circuit) <i>false</i> <br>
+false && false is (short-circuit) <i>false</i> 
+
+<br>
+<br>
+
+<h4>||</h4>
+The <b>LOGICAL OR</b> operator test that <i>at least</i> one condition is true, so if one condition is true the result is true. <br>
+true || true is <i>true</i> (short-circuit) <br>
+true || false is <i>true</i> (short-circuit)<br>
+false || true is <i>false</i> <br>
+false || false is <i>false</i>
+
+<br>
+<br>
+
+<h4>!</h4>
+The <b>IS NOT</b> operator inverts the value of a Boolean, so <br>
+!true is <i>false</i> <br>
+!false is <i>true</i> <br>
+
+<br>
+<br>
+<b>NOTE | SHORT-CIRCUIT EVALUATION |:</b> Logical expressions are always evaluated left to right so condition1 && condition2 will always return condition1 as the answer <i>if there is enough information to determine the 
+answer.</i> <br>
+In otherwords if condition1 && is false, then the answer is automatically false, and conversely if condition1 is true || then the answer is true because it has already determined at least one true condition. **tricky**
+
+<br>
+<br>
+</div>
+
+<h4> IF STATEMENTS </h4>
+
+2. <b>IF STATEMENTS</b> are conditions and thus must be satisfied for the code to continue running.
+
+<div id="window">
+
+<h4>EXAMPLE CONDTION & CONDITIONAL STATEMENT</h4>
+
+<b>if</b> (condition) {<br>
+codeToExecuteIfTrue();<br>
+} <i>else</i> {<br>
+codeToExecuteIfFalse();<br>
+}<br>
+<br>
+<b>So "<i>if(condtion)</i> {" document checks condition<br>
+"codeToExecuteIfTrue();" executes code if true<br>
+"} <i>else</i> {" the first condition not being met, the document moves on to<br>
+"codeToExecuteIfFalse();" and instead execute this statement<br>
+}</b><br>
+<b>NOTE:</b>You can have multiple conditions by combining more comparison operators to check if more than one condition is met (pg.150 has list of comparison operators)
+
+<br>
+<br>
+
+</div>
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4> Thursday January 2, 2020 - #KEEPGOING </h4>
+<h4><b>JAVASCRIPT CONTINUED...</b></h4>
+
+
+<br>
+<br>
+<p id="JSJQ"></p>
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+<br>
+<br>
+
+<!-- YOUR <p class="one"></p> and </div> desingations end here so there's no need to remove them. --> </p></div>
+
+<br>
+<br>
+
+<div id="page">
+
+  <p class="two"><u><b>WINDOWS APACHE MySQL & PHP (WAMP) STUDY</b></u></p>
+
+<br>
+<h5> THUS, WE BEGIN... </h5>
+
+1. When using PHP the statements within the code end the same as they would in JavaScript, namely with a semicolon; which is important because the fewer grosse differences <br>
+between the two for now, the better.
+
+<br>
+<br>
+
+<b>NOTE:</b><br>
+I needed to download a program called "Ampps"
+<br>
+This allowed me to set up a "localhost" server that I am now working on to do all my coding and save my php programs on. This is vital becaues I could not save or write php code <br>
+prior to doing so and without it. Optimally and atleast for now I will be saving this work on the laptop, but prudence would have dictated doing all of this from an external drive <br>
+in fact I am tempted to save everything on one from now on however because I have already begun doing so here I will maintain what I have accomplished.<br>
+Before the night is over, I will attempt to transfer all files to my external drive and operate it from there or hopefully purchase a whole new drive and begin again there. <br>
+In the meantime I will back up the transfer driver to all of my external drives for now I know that I have copies I can move with if need be but I expect it to grow substantially. <br>
+<b>the point is I need a dedicated drive for all of my php work so I can travel with it if need be.</b> 
+
+<br>
+<br>
+
+Another major aspect of this endeavor is that now I require a IDE (Integrated Development Environment), a program called <i>Eclipse</i> to code and save a php program as <br>
+opposed to just using notepad. Also, I needed to download Java Runtime Environment 64-bit (JRE64). This is clutch because at first, I downloaded the 32-bit by accident and <br>
+could not run the IDE program which returned an error. I've saved all of these files in the transfer drive and will need to save them on the Seagate when I finished tonight. <br>
+Needless to say these programs are vital to php coding at least for my purposes for now, and I will secure them as I move forward. The link provided at the end of this section <br>
+of <i>the testing floor</i> will return the http://localhost/thetestingfloor.php page for now. I will continue to attempt to integrate the work I have done here into a php doc <br>
+with all accompanying css and JavaScript, but that may take a while. For now all php coding practice resides within regular DOM HTML until further notice.
+
+<br>
+<br>
+
+2.<b>ARRAYS (BEGINNER)</b><br>
+Assigning arrays in php are similar in construct to JavaScript however the beginning designations are different (see #3) so in the case of an array in php you would start as follows: <br>
+$variable = array ('item0', 'item1', 'item2', 'item3'); ... and so on, making sure obviously not to mix letters with numbers although I have seen no indication that you cannot indeed <br>
+do so, however as with JS when writing a number as opposed to a string, no quotes are necessary. That is also important in that you must place strings between '' marks to designate them <br>
+as such. <b>AS WITH JS, ARRAYS BEGIN WITH THE NUMBER ZERO, BUT ZERO REFERS TO THE ITEM [1] IN THE ARRAY WHEN CALLING IT!</b><br>
+PHP allows you to create matrices that can contain many more values within: 
+
+<br>
+<br>
+
+$variable = array (array ('item0', 'item1', 'item2'),<br>
+---------------------array ('item0', 'item1', 'item2'),<br>
+---------------------array ('item0', 'item1', 'item2'));<br>
+If you were to call say, 'item0' in the 3rd array the command would be "echo $variable [2][1];" and so on. Note in this case that each array begins new with a new number of items 0-9 and only <br>
+ends with a semicolon;, otherwise, while still naming arrays, comas are used to start the next one, and each array begins with the <i>array</i> designation.
+
+<br>
+<br>
+
+3.<b>IMPORTANT</b><br>
+Variable names (which you've already seen in JavaScript as beginning with "var") in php begin with "$", so "$variablenamehere" which you have also seen in JQuery. Instead of the <br>
+more lengthy var designation, you simply need the $character and a letter or underscore.
+
+<br>
+<br>
+
+4. <b>OPERATORS:</b><br>
+Assignment, Comparison, and Logical operators all work the same inside php & JavaScript, however <b>arithmatic operators</b> go <i>before</i> the variable in php and <i>after</i> the variable in JS, <br>
+so: 
+<br>
+Ex. PHP <br>
+++$j adds one increment to a variable in php <br>
+Ex. JavaScript <br>
+i++ adds on increment to a variable in JavaScript <br>
+Small differences like this may seem trivial however since you're learning both languages at once it is imperitive that you know the differences.<br>
+Also, php adds <i>"and", and "or"</i> as logical operators in addition to "||" and "&&" for low precedence as well as <i>xor</i> indiciating <i>exclusive or</i>. 
+
+<br>
+<br>
+
+<b><sup>1</sup>NOTE:</b><br>
+As study continues it makes sense perhaps that writing long stretches of information in text is always best accomplished with notepad, in the format that will result in HTML text. The primary reason I can <br>
+see thus far is that coding text into php is tedious in that designation for <b>BOLD</b>, <i>italics</i>, line breaks and deliniations are sat between "<>" in php. This seems in indicate that like JavaScript <br>
+PHP is designed to give instructions and not to be written into. In fact beyond comments, which work the same as JavaScript (i.e. //for single line comments and /* for multiple lines */) there seems to be no <br>
+immediate need to write script into PHP at all unless absolutely necessary and solely for the sake of variable values (strings), string concatenation, required keywords, etc... It is thus reasonble to assume that <br>
+the best use of php, JavaScript and JQuery would be to declare multiple variables and functions and call them using arrays creating a network of responses to certain commands. The verbage at that point only being <br>
+necessary when calling them again later in the code.
+
+<br>
+<br>
+
+<div id="win">
+<h4>IMPORTANT:</h4>
+When adding strings together in PHP the way of doing so differs from JavaScript where you would use 'One string' + 'Another string'; to connect the two, in the case of PHP you only need to use a period "." so <br>
+"One string" . "Another String"; would acheive the same result. In addition to this, you can combine strings by using the ".=" operator such that $Onestring .= $Anotherstring would also accomplish this assuming <br>
+you had previously placed those strings in variables.
+</div>
+
+<br>
+<br>
+
+It is important to keep in mind when using strings in php that quotations operate slightly differently than in JS as in single quotes '' allow you to preserve the exact contents within a string, <br>
+whereas double quotes "" will result in $variable values being written in the the string. You will recall that in JS you can use either single or double quotes but you must begin and end <br>
+with the same type and depending on the desire to use them within the string you can use the other kind (i.e. if you have double quotes in your string you must use single quotes to confine <br>
+the string, and vice versa), however both php and JS allow you to escape quotes using the backslash prior to placing them within a string.This was in fact not covered in the JS/JQ book however <br>
+that requires more research in order to be certain. The point is made however that appending a string within another using this method is much more efficient and is called <i>variable substitution</i> <br>
+I referred to this earlier when considering establishing variables before hand regarding text. Incidentally the eclipse IDE created an error message when I attempted this, however that was circumvented <br>
+by simply adding the $variable on the next line of the script thereby telling the IDE that the variable had been used even though in this case it wasn't placed until the line after. I am still curious <br>
+if that is a standard of some sort or just that particular editing program? Curiously it is important to note that <b>escaping quotes in php only works in strings surrounded by "double quotes"?!</b> <br>
+<br>
+
+
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4> Wednesday January 1, 2020 </h4>
+
+<h6>HAPPY NEW YEAR!... NOW DO WORK, SON!!!</h6>
+
+<b>CONT... FROM CH.3 INTRO TO PHP</b>
+
+<h4><sup>1.1</sup>NOTE:</h4>
+The current text would suggest, and as I have yet to discover the purpose I will wait to see how much is actually necessary, that long strings of text may indeed be necessary when writing php code, and gives several examples 
+which I will see to when the sun rises... we shall see.
+
+<h4> CONTINUED... </h4>
+
+<br>
+<br>
+
+It immediately makes sense that a small benefit of using PHP to write text lies within the <i>"Alternative mulitline echo statement."</i> However since without the localhost server or an accompanying PHP capable server <br>
+it will still serve my purposes to write extensive text in HTML. That said, PHP offers an escape from it's normal function of needing to assign a specific $variable or code to each line, namely the <<<operator which <br>
+when used will look as such:
+
+<br>
+<br>
+
+(opening tag <questionmarkphp <br>
+echo 3xlessthanDESIGNATEDTERM<br>
+Within the space designated by the 3xlessthanDESIGNATEDTERM tag will sit all the accompanying multiline text needed to be input, precisely as allows in HTML without the same designation. However, when finished the <br>
+multiline text must then be ended with the same designation. Before mentioning the importance of closing with the same tag, it is of note that 1. You cannot add any characters after the initial "echo 
+3xlessthanDESIGNATEDTERM including space, and the line <b>MUST</b> begin with the echo 3xlessthanDESIGNATEDTERM. <b>NOT EVEN A SINGLE SPACE CAN BE ADDED AFTERWARDS</b>, though it does not say the same for the ending tag 
+which is exactly the same however as with all statements must end with a semicolon, and from what the book example shows, will also end on its own line, so as follows: <br>
+DESIGNATEDTERM; <br>
+with the accompanying closing tag. I will use the Psalm from this morning as a means of testing, and remembering it's message. Also, lastly and this is important for my writing style, PHP will maintain all the <br>
+indentation, line breaks, and white space.
+
+<br>
+<br>
+
+It is important to note that placing the beginning and ending tags in HTML causes them to disappear which means the overlapping code usage definitely has an effect, but what I do not know just yet. Perhaps the HTML <br>
+Expects to encounter PHP code at that point. Unfortunately none of the line breaks were preserved nor the indentation, however the result would be as if writing long strings of text in HTML so the end result if <br>
+absolutely necessary would be the same. For now I maintain it only necessary to use verbage for the purposes of coding, but let's continue...
+
+<br>
+<br>
+
+One huge benefit thus far besides the ease of assigning $variables in PHP is that once you have indeed assigned them, you can then call on them again at any instance thereafter, so if and when you require that <br>
+specific variable you can call it again, and it notes in the text that like JavaScript's ability to call a function before you have declared it, you can do the same with variables in PHP, presumably because like <br>
+JavaScript an interpreter reads the whole script before running it. The text makes a point to note that PHP will convert variable types depending on their context by using a few examples, neither of which seem <br>
+particularly pertinent outside of specific coding examples and where numerical values are assinged. As in a case of converting a number to a string using the example: <br>
+$number = 12345 * 67890; <br>
+echo <b>substr</b>($number, 3, 1); <br>
+which apparently acts as an array and calls the number 1 from within the $number variable resulting in PHP treating the variable as a string, and also when declaring $pi as the string "3.1415927"; designated by <br>
+the use of quotations. Again, the usage of this will likely become clearer later on.
+
+<br>
+<br>
+
+<h4> CONSTANTS </h4>
+
+While similar to variables, once defined they do not need to be recalled with the "$" sign, kind of like recalling a function in JavaScript. In this case, and slightly different from a variable within a JavaScript <br>
+function you cannot alter the constant at any time afterwards.
+Ex. <br>
+define("ROOT_LOCATION". "/user/local/www"); <br>
+Subsequently, to read the contents of the variable you need not use the dollar sign again, so <br>
+$directory = ROOT_LOCATION; will call the variable without its use.
+
+<br>
+<br>
+
+<b>NOTE:</b><br>
+At some point the <i>"print"</i> command will be introduced. The text point outs that it can be used interchangebly with <i>echo</i> depending however it carries with it the ability to be used as a function (keyword) <br>
+that can carry a single value which is always 1, and echo is purely a language construct. (Ex. $b ? print "TRUE" : "FALSE;) and returns the command on the left of the colon if $b is true and false if the opposite is <br>
+true. I'm certain that will become clear at some point but for now the idea is to stay away from using the print command unless you're using it for the purpose of a function, and insofar as echo does the job just <br>
+as well, it seems moot.
+
+<br>
+<br>
+
+<h4> FUNCTIONS </h4>
+
+Better defined in this text that in Duckett's <i>Functions:</i> separate sections of code that perform a specific task. They give the example of needing to call a certain function (the date in this case) often in the <br>
+code, so it would be a good idea to turn it into a function. Immediately the similarity exists that JavaScript can call a function throughout the use of a script when called as can PHP functions, and also can be <br>
+given parameters as well as return values.
+
+<br>
+<br>
+
+<div id="win">
+<h6>SIMPLE PHP FUNCTION EXAMPLE</h6>
+(opening tag) <br>
+function longdate($timestamp) <br>
+{ <br>
+return date("l F JS Y", $timestamp); <br>
+} <br>
+(closing tag) <br>
+Which would return the date as <i>Wednesday January 1st 2020</i>
+<br>
+<br>
+**See .php testing floor for examples**
+<br>
+<br>
+<b>NOTE:</b> The first similarity I will call upon and is mentioned directly after is the usage of the {} curly braces, but thakfully for the sake of cohesion the same general syntax is used when writing a function in PHP
+so the<br>
+function nameoffunction(parameter) <br>
+{ <br>
+return askedvalue(value and/or $variable); <br>
+} <br>
+seems pretty universal where as the difference in the placement of the braces should make at least a semantic difference within a program editor like eclipse, maintaining distinct and clearly designated beginning and end
+point to an opening and closing brace. In fact doing so in JavaScript per the Duckett text isn't addressed so quite frankly the same practice could be adopted in both presumably.
+</div>
+
+<br>
+<br>
+
+<b>NOTE:</b> When using line breaks and other text features within PHP anything you put between echo"" and the quotes will be written literally, so any punctuation and other characters will be used in place and not <br>
+used a separators. I'm only making this clear now because I had been doing so thinking it necessary however the program editor I am using did not make the distinction for me. In fact when I was doing so, it did in <br>
+fact hide them from the page, but knowing this now makes placing code in the PE much easier and should be faster moving forward. Also, the following variable scope information allows me to see how just like in JS <br>
+local and global variables within functions are called in similar fashion, in that once you have declared a function you cannot again use it further down in the code. You can call the function again, but you cannot <br>
+<i>DECLARE</i> the function twice which makes perfect sense.
+
+<br>
+<br>
+
+<h4> VARIABLE SCOPE </h4>
+
+Local and global variables will operate as expected in PHP with local variables only able to be called and operate properly when declared within a function, so it seems prudent to make use of as many as possible <br>
+however one key use when using a global variable is to use the <i>global</i> keyword when defining a variable. (Ex. <i>global</i> $is_logged_in;) In this example, per the text, the usage is having a use logged in <br>
+and wanting the code to know whether it is interacting with a logged in user or a guest. In this case every line of code can access this variable because it was specifcally designated as global, but even the text <br>
+suggests this is cautionary. As in JavaScript global variables should have limited usage, as in the case of my top of page "Hello2.js & Hello3.js" greetings in which they are only used in that regard and nowhere else.<br>
+<b><i>THE AUTHOR RECOMMENDS THAT WHEN USING GLOBAL VARIABLES THEY BE ASSIGNED IN ALL CAPS! THIS IS A PHP ADVANTAGE BECAUSE JavaScript SPECIFICALLY DESIRES VARIABLE TO BE NAMED USING camelCase!</i></b><br>
+<h2> PHP-1, JS-0</h2>
+
+<br>
+<br>
+
+PHP uses variables known as <i>STATIC</i>, the idea being that if you're placing a local variable and want it to be used subsequently, you can say add a counter to it to see how many times it is used. This is interesting <br>
+because I placed two variables in the code prior that gave me warnings when they weren't used immediately. They were global variables and not used within a function which now makes sense as to why I was warned of their <br>
+not being used. It makes sense that the program editor would alert me to use them as soon as they were called, as they are indeed global and not residing within a function-- a warning that the text speaks of. For the sake <br>
+of the example provided it is noted that static variables can only be assigned predetermined values and not expressions, so <br>
+Ex. <br>
+(opening tag) <br>
+function name() <br>
+{ <br>
+static $count = 0; <br>
+echo $count; <br>
+$count++; <br>
+} <br>
+(closing tag)
+
+<br>
+<br>
+
+<h3><b><i>IMPORTANT - SUPER GLOBAL VARIABLES </i></b></h3>
+Which should be avoided allow for certain information to be collected and given about the currently running program. An example used it $came_from = $_SERVER['HTTP_REFERER']; which allows you to discern where the site <br>
+visitor came from, but will turn up an empty string if the visitor came straight to the page by typing the URL into the browser. This is useful in that it allows you to see where traffic to your site is coming from. <br>
+As you would expect caution is regarded when using these as they can allow hackers access to a website. If you don't use global variables in otherwords, you'll know upon spotting them that it wasn't you who included <br>
+them in the code. **tricky, tricky** <br>
+A work around if used is to use PHP's <i>htmlentities</i> function which converts all characters into HTML entities. (Ex. < and > are transformed into &lt and &gt). This is known as <i>sanitizing</i>. If used, the text <br>
+recommends that you do so as follows: $came_from = htmlentities($_SERVER['HTTP_REFERER'] and states that sanitization is an important practice whenever third-party data is being processed for output and not just with <br>
+superglobals, which I will need to keep in mind.
+
+
+<br>
+<br>
+<h6>END OF DAY</h6>
+<hr>
+
+<h4> Thursday January 2, 2020 - #KEEPGOING </h4>
+<h4><b>PHP CONTINUED... REVIEW CHAPTER 3 BREIFLY BEFORE CONTINUING</b></h4>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p id="wamp"></p>
+<br>
+<br>
+<h4><a href="thetestingfloor.php">LOCATE YOUR PHP TESTING FLOOR HERE</a></h4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <p class="one"> </p>
+  <p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+</div>
+
+<br>
+<br>
+
+<div id="page">
+
+  <p class="two"><u><b>MMMG NARRATIVE EXAMPLE II</b></u></p>
+<br />
+
+  <p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+</div>
+
+<br>
+<br>
+
+<div id="page">
+
+  <p class="two"><u><b>MMMG NARRATIVE SIGN-UP III</b></u></p>
+
+   <form method="post" action="formsubmit.html">
+     
+
+     <div class="name">
+       <label for="name" class"required">Name:</label>
+       <input type="text" placeholder="Enter your name" name="name" id="name" required title="Please enter your name">
+
+     </div>
+
+     <div class="email">
+       <label for="email" class="required">Email:</label>
+       <input type="email" placeholder="you@example.com" name="email" id="email" required>
+
+     </div>
+
+     <div class="password">
+       <label for="password" class="required">Password:</label>
+       <input type="password" name="password" id="password" required>
+
+     </div>
+
+     <div class="password">
+        <label for="conf-password" class="required">Confirm password:</label>
+        <input type="password" name="conf-password" id="conf-password" required>
+
+     </div>
+
+     <div class="birthday">
+         <label for="birthday" class="required">Birthday:</label>
+         <input type="date" name="birthday" id="birthday" placeholder="yyyy-mm-dd" required>
+     
+     </div>
+
+     <div class="bio">
+        <label for="bio">Tell the group about yourself (max 140 characters):</label>
+        <textarea name="bio" id="bio" rows="5" cols="30"></textarea>
+        <span id="bio-count" class="hide">140</span>
+
+     </div>
+     
+     <div class="submit"><input type="submit"></div>
+
+   </form> 
+
+<p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+
+</div>
+
+<br>
+<br>
+
+<div id="page">
+
+   <p class="two"><u><b>MMMG THEORY TESTING IV</b></u></p>
+<br />
+
+  <div id="window"> <h1><u>TESTING THEORY:</u></h1>
+
+<br>
+<br>
+
+This was accomplished by adding a "#window" <i>div id</i> to the .css elements that govern the page and how it is 
+displayed. The intent being to create a column within the "#page" division to give the impression of a newspaper
+column. The next test will be how to display several of these next to one another without actually having to use the 
+column feature, or something revisiting using columns within the html code. For future reference I was supposed to be
+starting over reading the Javascript/Jquery book which I will have do to when the sun comes up because I am indeed tired,
+
+<br>
+<br>
+
+However I realize now that I am only attempting to conquer plastic and metal. That's all a computer is, and my intent has
+not changed. I will create the largest online media conglomerate in the world, and be a BILLIONAIRE in the process.
+
+<br>
+<br>
+
+Incidentally, New Rule: "If you don't close an element once you've opened in, it will continue in the ensuing text indefinitely.
+
+<br>
+<br>
+
+... and this my friends, is only the HTML and CSS. It is SO on!
+
+<br>
+<br>
+
+... Wake up, Neo... 
+</div>
+
+
+  <p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+</div>
+
+<br>
+
+<div id="page">
+
+   <p class="two"><b>MMMG NARRATIVE EXAMPLE VI | FLOATING WINDOWS</b></p>
+<br>
+
+<div id="fltrt">
+
+<h1> TESTING </h1>
+
+<p class="four"> I am doing this as a test of my floating windows which should do fine residing within the larger page division windows as a means of accessing
+eventually with links side stories I'd like users to focus on. I need to make certain however that they do not exceed certain limits so I will return to the css
+and assign max widths.</p>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+<div id="fltlt">
+
+<h3> TESTING </h3>
+
+<p class="four"> I am doing this as a test of my floating windows which should do fine residing within the larger page division windows as a means of accessing
+eventually with links side stories I'd like users to focus on. I need to make certain however that they do not exceed certain limits so I will return to the css
+and assign max widths.</p>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>                                       <!--   FOR THE SAKE OF FITTING THE FLOATING WINDOWS -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+  <p class="three">
+    <a href="#top">BACK TO TOP</a></p>
+
+</div>
+
+<ul id="navigation">
+
+  <li><a href="#">about us</a></li>
+  <li><a href="#">our mission & vision</a></li>
+  <li><a href="#">contact us</a></li>
+ 
+</ul>
+
+
+
+<script src="GREET.js"></script>
+
+  </body>
+</html>
